@@ -1,0 +1,48 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f0f0f0; */
+    background-image: url(https://www.meteociel.fr/cartes_obs/radar/lastsnowradar_so.gif);
+    text-align: center;
+  
+  }
+  
+  main {
+    /* background-color: #8cacdf; */
+    color: purple;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 50px;
+    color: white;
+  }
+  
+  #weather-output {
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  #weather-output li {
+   background-image: url(https://images.theconversation.com/files/256945/original/file-20190203-75085-1584oa5.png?ixlib=rb-1.1.0&q=45&auto=format&w=1356&h=668&fit=crop);
+   object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 10px;
+    flex: 0 1 calc(30% - 20px);
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  #weather-output li p {
+    margin: 5px 0;
+  }
+  
